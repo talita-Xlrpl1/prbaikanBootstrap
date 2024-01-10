@@ -1,0 +1,12 @@
+.kotak {
+    width: 100px;
+    height: 100px;
+    border: 1px solid purple;
+}
+
+@media screen and (max-width : 768px) and (min-width : 700px) {
+   .kotak {
+    background-color: red;
+   } 
+}
+

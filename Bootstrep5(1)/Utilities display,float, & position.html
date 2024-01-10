@@ -1,0 +1,130 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+
+    <title>Utilities Bootstrap 5</title>
+</head>
+
+<body style="height: 5000px;">
+    <div class="container m-5">
+
+        <h4 class="text-center">Utilities Bootstrap 5</h4>
+        <h2 class="text-center">Dispaly, Float And Position</h2>
+        <hr>
+
+
+        <!-- Lets Begin -->
+
+
+
+        <h3 class="text-primary">Display</h3>
+        <p>Bagaimana Perilaku dari Display..?</p>
+        <!-- Div & Span -> Pengelompokan -->
+
+        <span></span>
+        <div></div>
+        <!-- 
+        Popular Display : 
+        1. Inline
+        2. Block
+        3. inline-block
+        4. flex
+        5. Grid
+        6 . etc -->
+
+
+        <!-- 1. Inline -->
+
+        <!-- Span Display = Inline -->
+        <!-- a. Inline tidak menambahkan baris ketika ditambahkan elment yang memiliki display inline di dekatnya. (Span) -->
+        <span>Talita</span>
+        <span>Kayla</span>
+        <!-- b. lebar dan tingginya sesuai element didalamnya  -->
+        <span class="bg-danger">Talita Kayla Nuraini</span>
+        <!-- c. tinggi dan lebar tidak dapat di atur -->
+        <br>
+        <span class="bg-primary" style="width: 500px; height: 100px;">Murid SMKN 10 Semarang</span>
+        <!-- d. margin & pading hanya mempengaruhi element secara horizontal tidak Vertical -->
+        <span class="bg-success">Murid SMKN 10</span>
+        <span>Lorem ipsum dolor, sit amet consectetur adipisicing elit. In enim delectus velit laborum officiis dignissimos deleniti, nam nostrum modi earum facere laboriosam molestias voluptatem numquam natus illo. 
+            Iure illum quaerat quasi. Eos aliquid quaerat ullam unde ex commodi perferendis, quia ipsam architecto maiores pariatur minima repellat vitae itaque aut molestiae. Expedita quas fugit ullam quam quos, facilis doloribus officia corrupti fuga pariatur omnis officiis! Suscipit tempora tempore dolores nostrum atque deserunt consequuntur praesentium necessitatibus minima, 
+            corporis sequi sint laborum tenetur consectetur quisquam deleniti odit obcaecati molestias repudiandae minus iste. Sapiente itaque at ipsa, consequatur illum, repellendus suscipit dolorum consequuntur eaque ut tempore! Corporis.
+        </span>
+        <!-- 2. Block -->
+        <!--Div Display = Block -->
+
+        <!-- a. menambahkan baris baru ketika ditambahkan element HTML yang memiliki display block -->
+        <hr>
+        <div>Talita</div>
+        <div>Kayla</div>
+        <!-- b. dapat di atur lebar dan tigginya, tapi jika tidak di atur secara default lebarnya akan memenuhi atau sesuai dengan element pembungkusnya -->
+        
+        <div class="bg-success" style="width: 100px; height: 100px;">Murid SMKN 10</div>
+
+        <!-- 3. Inline-Block -->
+        <hr>
+        <div class="d-inline-block bg-primary">inline block</div>
+        <div class="d-inline-block bg-primary">Example</div>
+        <!-- Display Inline-Block -->
+        <!-- a. Berperilaku seperti inline & Block -->
+       
+        <!-- Merubah Display di bootstarp 5 -->
+        <div class="d-inline">Talita</div>
+        <div class="d-inline">Kayla</div>
+        <div class="d-block">Nuraini</div>
+
+        <br>
+        <h3 class="text-primary">Float</h3>
+        <p>Bagaimana Perilaku dari Float..?</p>
+
+        <!-- 4. Float -->
+        <!-- 1. Mangatur Posisi pada sebuah element. -->
+        <!-- 2. dipaksa berada di sebelah kanan atau kiri pada element pembungkusnya atau istilahnya mengambang. -->
+        <!-- 3. prilakunya berbeda dengan alignment. -->
+        <!-- 4. Clear fix -> membersihkan float -> collaps -->
+        
+        <div style="width: 500px;" class="bg-secondary clearfix">
+            <div style="width: 100px; height: 100px;" class="bg-primary float-end">element 1</div>
+            <div style="width: 100px; height: 100px;" class="bg-primary float-end">element 2</div>
+            <div style="width: 100px; height: 100px;" class="bg-primary float-end">element 3</div>
+        </div>
+        <br>
+        <h3 class="text-primary">Position</h3>
+        <p>Bagaimana Perilaku dari Position..?</p>
+        <!-- 5. Position -->
+
+        <!-- a. Static -->
+        <!-- b. Retalive -->
+        <!-- c. Absolute -->
+        <!-- d. Fixed -->
+
+        <div class="bg-secondary" style="width: 500px; height: 500px;">
+            <div style="width: 100px; height: 100px;" class="bg-primary float-end">Element 1</div>
+            <div style="width: 100px; height: 100px;" class="bg-danger float-end">Element 2</div>
+            <div style="width: 100px; height: 100px;" class="bg-success float-end">Element 3</div>
+        </div>
+    </div>
+
+    <!-- End Session -->
+    <!--Thank You -->
+
+
+
+
+
+
+    <!-- Bootstrap Javascript -->
+    <script src="js/bootstrap.js"></script>
+
+    <!-- Popper Javascript -->
+    <script src="js/popper.min.js"></script>
+</body>
+
+</html>
